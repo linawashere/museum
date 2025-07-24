@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+
+    @media screen and (max-width: 420px) {
+        font-size: calc(8px + 4 * (100vw - 320px) / 100);
+    }
+
+    @media screen and (min-width: 421px) and (max-width: 767px) {
+        font-size: calc(10px + 1 * (100vw - 421px) / 346);
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        font-size: calc(10px + 4 * (100vw - 768px) / 255);
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1919px) {
+        font-size: calc(10px + 1 * (100vw - 1024px) / 896);
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-size: 10px;
+    }
+}

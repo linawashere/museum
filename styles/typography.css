@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Заголовки */
+
+.heading {
+    font-family: "Forum", serif;
+    font-size: 80px;
+    font-weight: normal;
+    transition: all 0.5s ease;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.heading-dark {
+    color: var(--font-gold);
+}
+
+.heading-light {
+    color: #fff;
+}
+
+.heading:hover,
+.text:hover {
+    color: var(--font-gold);
+}
+
+/* Текст */
+.text {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.text-32 {
+    font-size: 32px;
+}
+
+.text-28 {
+    font-size: 28px;
+}
+
+.text-22 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-dark {
+    color: #000;
+}
+
+.text-light {
+    color: #fff;
+}
