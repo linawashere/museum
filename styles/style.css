@@ -876,8 +876,13 @@ input[type="number"] {
         font-size: 2.5rem;
     }
 
+    .explore {
+        padding-bottom: 5.5rem;
+    }
+
     .explore__inner {
         flex-direction: column;
+        gap: 5rem;
     }
 
     .explore__text {
@@ -892,11 +897,59 @@ input[type="number"] {
         gap: 0;
     }
 
-    .explore-last-paragraph {
+    .explore-last-paragraph,
+    .video-paragraph {
         display: none;
     }
 
     .explore__slider {
-        margin-top: 5.5rem;
+        margin: 0;
+    }
+
+    .video__main {
+        margin-top: 2rem;
+        height: auto;
+    }
+
+    .video__main-item {
+        height: 44rem;
+    }
+
+    .video__main-controls {
+        height: 6.5rem;
+        padding: 0 4rem;
+    }
+
+    .play-button {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 16rem;
+        left: calc(50% - 8rem);
+        top: calc(50% - 23rem);
+    }
+
+    .progress,
+    .progress-volume {
+        width: 56.9rem;
+        height: 0.6rem;
+    }
+
+    .audio-volume {
+        width: 1.6rem;
+        height: 2rem;
+        background-size: contain;
+    }
+
+    .progress-volume {
+        width: 14.5rem;
+    }
+
+    .fullscreen {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .video__slider iframe {
+        height: 165px;
     }
 }
