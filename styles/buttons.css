@@ -24,3 +24,10 @@
 .button-sm:hover {
     color: #000;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) { 
+    .button-lg {
+        width: 300px;
+        height: 60px;
+    }
+}

@@ -37,7 +37,7 @@
 }
 
 .text-28 {
-    font-size: 28px;
+    font-size: 28px !important;
 }
 
 .text-22 {
@@ -55,4 +55,14 @@
 
 .text-light {
     color: #fff;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) { 
+    .heading {
+        font-size: 50px;
+    }
+
+    .text-28 {
+        font-size: 24px !important;
+    }
 }
