@@ -923,9 +923,19 @@ input[type="number"] {
     .play-button {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 16rem;
+        height: 15rem;
         left: calc(50% - 8rem);
-        top: calc(50% - 23rem);
+        top: calc(50% - 11rem);
+    }
+
+    .picture-square {
+        width: 30.4rem;
+        height: 30.4rem;
+    }
+
+    .picture-rectangle {
+        width: 30.4rem;
+        height: 38rem;
     }
 
     .progress,
