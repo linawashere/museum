@@ -160,9 +160,11 @@
                             <p class="explore__text-descr-paragraph text text-22 text-light">Las Meninas is a 1656
                                 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
                             <p class="explore__text-descr-paragraph text text-22 text-light">It was cleaned in 1984 to
-                                remove a <span>"yellow veil"</span> of dust that had gathered since the previous restoration in the
+                                remove a <span>"yellow veil"</span> of dust that had gathered since the previous
+                                restoration in the
                                 19th century.</p>
-                            <p class="explore__text-descr-paragraph text text-22 text-light explore-last-paragraph">The cleaning provoked
+                            <p class="explore__text-descr-paragraph text text-22 text-light explore-last-paragraph">The
+                                cleaning provoked
                                 furious protests, not because the picture had been damaged in any way, but because it
                                 looked different.</p>
                         </div>
@@ -184,7 +186,8 @@
                 <div class="video__inner">
                     <div class="video__text">
                         <h2 class="heading heading-dark">Video journey</h2>
-                        <p class="video__text-descr text text-dark text-22 video-paragraph">Enter and visit one of the most famous
+                        <p class="video__text-descr text text-dark text-22 video-paragraph">Enter and visit one of the
+                            most famous
                             museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
                     </div>
                     <div class="video__main">
@@ -267,45 +270,52 @@
                         <div class="tickets-content__image">
                             <img src="./assets/img/tickets.png" alt="tickets image">
                         </div>
-                        <div class="tickets-content__type">
-                            <p class="tickets-content__type-title text text-dark text-28">Ticket Type</p>
-                            <div class="tickets__radio-btns">
-                                <div class="tickets__radio-btns-controller">
-                                    <input type="radio" name="ticket-type" id="permanent" value="permanent exhibition">
-                                    <label class="text text-dark text-22" for="permanent">Permanent exhibition</label>
-                                </div>
-                                <div class="tickets__radio-btns-controller">
-                                    <input type="radio" name="ticket-type" id="temporary" value="temporary exhibition">
-                                    <label class="text text-dark text-22" for="temporary">Temporary exhibition</label>
-                                </div>
-                                <div class="tickets__radio-btns-controller">
-                                    <input type="radio" name="ticket-type" id="combined" value="combined exhibition">
-                                    <label class="text text-dark text-22" for="combined">Combined Admission</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tickets-content__amount">
-                            <p class="ticket-quantity-controller__title text text-dark text-28">Amount</p>
-                            <div class="ticket-quantity-controller">
-                                <p class="text text-dark text-22">Basic 18+</p>
-                                <div class="quantity-block">
-                                    <button class="quantity-arrow-minus text text-dark">-</button>
-                                    <input type="number" class="quantity-num text text-dark text-22" id="basic"
-                                        value="0">
-                                    <button class="quantity-arrow-plus">+</button>
-                                </div>
-                                <p class="text text-dark text-22">Senior 65+</p>
-                                <div class="quantity-block">
-                                    <button class="quantity-arrow-minus text text-dark">-</button>
-                                    <input type="number" class="quantity-num text text-dark text-22" id="senior"
-                                        value="0">
-                                    <button class="quantity-arrow-plus">+</button>
+                        <div class="tickets-content__buy">
+                            <div class="tickets-content__type">
+                                <p class="tickets-content__type-title text text-dark text-28">Ticket Type</p>
+                                <div class="tickets__radio-btns">
+                                    <div class="tickets__radio-btns-controller">
+                                        <input type="radio" name="ticket-type" id="permanent"
+                                            value="permanent exhibition">
+                                        <label class="text text-dark text-22" for="permanent">Permanent
+                                            exhibition</label>
+                                    </div>
+                                    <div class="tickets__radio-btns-controller">
+                                        <input type="radio" name="ticket-type" id="temporary"
+                                            value="temporary exhibition">
+                                        <label class="text text-dark text-22" for="temporary">Temporary
+                                            exhibition</label>
+                                    </div>
+                                    <div class="tickets__radio-btns-controller">
+                                        <input type="radio" name="ticket-type" id="combined"
+                                            value="combined exhibition">
+                                        <label class="text text-dark text-22" for="combined">Combined Admission</label>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="ticket-quantity-controller__total text text-28 text-dark">Total €220</p>
-                            <button class="ticket-quantity-controller__button button-sm">
-                                <span class="text text-22">Buy Now</span>
-                            </button>
+                            <div class="tickets-content__amount">
+                                <p class="ticket-quantity-controller__title text text-dark text-28">Amount</p>
+                                <div class="ticket-quantity-controller">
+                                    <p class="text text-dark text-22">Basic 18+</p>
+                                    <div class="quantity-block">
+                                        <button class="quantity-arrow-minus text text-dark">-</button>
+                                        <input type="number" class="quantity-num text text-dark text-22" id="basic"
+                                            value="0">
+                                        <button class="quantity-arrow-plus">+</button>
+                                    </div>
+                                    <p class="text text-dark text-22">Senior 65+</p>
+                                    <div class="quantity-block">
+                                        <button class="quantity-arrow-minus text text-dark">-</button>
+                                        <input type="number" class="quantity-num text text-dark text-22" id="senior"
+                                            value="0">
+                                        <button class="quantity-arrow-plus">+</button>
+                                    </div>
+                                </div>
+                                <p class="ticket-quantity-controller__total text text-28 text-dark">Total €220</p>
+                                <button class="ticket-quantity-controller__button button-sm">
+                                    <span class="text text-22">Buy Now</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -494,7 +504,7 @@
                 <div class="footer__bottom">
                     <p class="footer__bottom-text text text-light text-22">© 2021</p>
                     <p class="footer__bottom-text text text-light text-22">The Rolling Scopes School</p>
-                    <p class="footer__bottom-text text text-light text-22">Username</p>
+                    <a href="https://github.com/linawashere" class="footer__bottom-text text text-light text-22">linawashere</a>
                 </div>
             </div>
         </div>
