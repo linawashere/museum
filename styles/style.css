@@ -974,16 +974,16 @@ input[type="number"] {
         gap: 5rem;
     }
 
-    .tickets-content__buy.tickets-content__image img {
+    .tickets-content__image img {
         width: 70rem;
         height: 44rem;
     }
 
-    .tickets-content__buy.tickets-content__type {
+    .tickets-content__buy .tickets-content__type {
         display: none;
     }
 
-    .tickets-content__buy.tickets-content__amount {
+    .tickets-content__buy .tickets-content__amount {
         margin-left: 0;
     }
 
