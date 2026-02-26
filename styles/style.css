@@ -1108,4 +1108,70 @@ input[type="number"] {
         padding-top: 4.5rem;
     }
 
+    .visiting__cards {
+        justify-content: center;
+        padding-top: 0;
+        row-gap: 3rem;
+    }
+
+    .visiting__cards-item {
+        width: 28rem;
+    }
+
+    .visiting__cards-item-title {
+        font-size: 1.8rem;
+        padding-top: 3.5rem;
+    }
+
+    .visiting__cards-item-separator {
+        width: 1.5rem;
+    }
+
+    .visiting__cards-item-descr {
+        gap: 0;
+    }
+
+    .explore__inner {
+        flex-direction: column;
+        padding-top: 4.5rem;
+    }
+
+    .explore__text-descr,
+    .video__text-descr {
+        display: none;
+    }
+
+    .explore__text-separator {
+        margin-bottom: 2.5rem;
+    }
+
+    .explore {
+        padding-bottom: 2.5rem;
+    }
+
+    .video__inner {
+        padding-top: 4.5rem;
+        gap: 3rem;
+    }
+
+    .video__main {
+        margin-top: 0;
+    }
+
+    .video__main-item {
+        height: 32rem;
+    }
+
+    .video__main-controls {
+        height: 6.3rem;
+    }
+
+    .play-button {
+        width: 8rem;
+        height: 8rem;
+        left: calc(50% - 4rem);
+        top: calc(50% - 24rem);
+        background-repeat: repeat;
+        background-size: contain;
+    }
 }
