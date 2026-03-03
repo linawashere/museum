@@ -77,7 +77,11 @@
         font-size: 40px;
     }
 
-    .text-28 {
-        font-size: 20px !important;
+    .text-22 {
+        font-size: 18px !important;
     }
+
+    /* .text-28 {
+        font-size: 20px !important;
+    } */
 }

@@ -1048,6 +1048,10 @@ input[type="number"] {
     .header__nav {
         display: none;
     }
+
+    .gallery__inner {
+        height: 146rem;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1102,6 +1106,7 @@ input[type="number"] {
         position: relative;
         justify-content: flex-end;
         height: 10rem;
+        gap: 4.5rem;
     }
 
     .visiting__inner {
@@ -1146,7 +1151,7 @@ input[type="number"] {
     }
 
     .explore {
-        padding-bottom: 2.5rem;
+        padding-bottom: 4.5rem;
     }
 
     .video__inner {
@@ -1156,6 +1161,7 @@ input[type="number"] {
 
     .video__main {
         margin-top: 0;
+        height: auto;
     }
 
     .video__main-item {
@@ -1170,8 +1176,117 @@ input[type="number"] {
         width: 8rem;
         height: 8rem;
         left: calc(50% - 4rem);
-        top: calc(50% - 24rem);
+        top: calc(50% - 7rem);
         background-repeat: repeat;
         background-size: contain;
+    }
+
+    .progress {
+        width: 31rem;
+    }
+
+    .progress-volume {
+        background: linear-gradient(to right, #710707 0%, #710707 35%, #fff 50%, #fff 100%);
+    }
+
+    .video__slider iframe:last-child {
+        display: none;
+    }
+
+    .video__slider iframe {
+        flex: 1;
+        width: 35.4rem;
+        height: 19.9rem;
+    }
+
+    .video__slider {
+        gap: 1.5rem;
+    }
+
+    .gallery__inner {
+        padding-top: 4.5rem;
+    }
+
+    .picture-square {
+        width: 35.2rem;
+        height: 35.1rem;
+    }
+
+    .picture-rectangle {
+        width: 35.2rem;
+        height: 44rem;
+    }
+
+    .gallery__inner {
+        height: 122rem;
+    }
+
+    .tickets__inner {
+        padding-top: 4.5rem;
+    }
+
+    .tickets-content__image img {
+        width: 44.4rem;
+        height: 34rem;
+    }
+
+    .tickets__separator {
+        margin-bottom: 0;
+    }
+
+    .tickets-content__type {
+        display: none;
+    }
+
+    .tickets-content__amount {
+        margin-left: 0;
+        gap: 3rem;
+    }
+
+    .ticket-quantity-controller {
+        gap: 1.5rem;
+        align-self: flex-start;
+    }
+
+    .ticket-quantity-controller__title {
+        text-align: left;
+    }
+
+    .ticket-quantity-controller__total {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .ticket-quantity-controller__button {
+        margin-top: 2rem;
+    }
+
+    .quantity-block {
+        width: 17.5rem;
+    }
+
+    .parallax {
+        height: 30rem;
+    }
+
+    .contacts__inner {
+        padding-top: 5.5rem;
+    }
+
+    .contacts-content {
+        flex-direction: column;
+    }
+
+    .contacts__map {
+        width: 100%;
+        height: 47.6rem;
+    }
+
+    .contacts__separator {
+        margin-bottom: 0;
+    }
+
+    .contacts__info-title {
+        font-size: 20px !important;
     }
 }
