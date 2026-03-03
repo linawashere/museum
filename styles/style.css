@@ -1061,7 +1061,7 @@ input[type="number"] {
     }
 
     .header {
-        padding: 5rem 0;
+        padding: 3.5rem 0;
     }
 
     .header__nav {
@@ -1085,6 +1085,13 @@ input[type="number"] {
 
     .welcome__title h1 {
         text-align: center;
+        margin-top: 1.5rem;
+        line-height: 5.5rem;
+    }
+
+    .welcome__title-descr {
+        font-size: 20px !important;
+        margin-bottom: 3rem;
     }
 
     .welcome__inner {
@@ -1105,8 +1112,12 @@ input[type="number"] {
     .welcome__slider-pagination {
         position: relative;
         justify-content: flex-end;
-        height: 10rem;
+        height: 9rem;
         gap: 4.5rem;
+    }
+
+    .visiting {
+        padding-bottom: 1.5rem;
     }
 
     .visiting__inner {
@@ -1275,6 +1286,7 @@ input[type="number"] {
 
     .contacts-content {
         flex-direction: column;
+        gap: 4rem;
     }
 
     .contacts__map {
@@ -1288,5 +1300,37 @@ input[type="number"] {
 
     .contacts__info-title {
         font-size: 20px !important;
+    }
+
+    .contacts__info {
+        gap: 4rem;
+    }
+
+    .contacts__info-list {
+        gap: 1rem;
+    }
+
+    .footer__inner {
+        padding-top: 3.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .footer__top {
+        gap: 10rem;
+        flex-wrap: wrap;
+        row-gap: 3.5rem;
+    }
+
+    .footer__social {
+        position: relative;
+        right: 9rem;
+    }
+
+    .footer__inner-bottom {
+        padding: 4rem 0;
+    }
+
+    .footer__bottom-text {
+        margin-left: 0;
     }
 }
