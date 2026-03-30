@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 
     @media screen and (max-width: 420px) {
-        font-size: calc(8px + 4 * (100vw - 320px) / 100);
+        font-size: calc(6px + 4 * (100vw - 320px) / 100);
     }
 
     @media screen and (min-width: 421px) and (max-width: 767px) {

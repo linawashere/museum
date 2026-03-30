@@ -76,6 +76,19 @@ input[type="number"] {
     align-items: center;
 }
 
+.header__burger {
+    display: none;
+    flex-direction: column;
+    gap: 0.6rem;
+    cursor: pointer;
+}
+
+.header__burger-item {
+    width: 3.2rem;
+    height: 2px;
+    background: #fff;
+}
+
 .header__nav-item a,
 .footer__nav a {
     color: #fff;
@@ -816,6 +829,10 @@ input[type="number"] {
         padding: 5rem 0;
     }
 
+    .header__burger {
+        display: flex;
+    }
+
     .header__logo p {
         font-size: 28px !important;
     }
@@ -1068,6 +1085,10 @@ input[type="number"] {
         display: none;
     }
 
+    .header__burger {
+        display: flex;
+    }
+
     .welcome {
         height: auto;
     }
@@ -1101,12 +1122,9 @@ input[type="number"] {
     }
 
     .welcome-slider__slides {
-        position: relative;
-    }
-
-    .welcome-slider__slides {
         width: 100%;
         height: 54.6rem;
+        position: relative;
     }
 
     .welcome__slider-pagination {
@@ -1140,7 +1158,7 @@ input[type="number"] {
     }
 
     .visiting__cards-item-separator {
-        width: 1.5rem;
+        width: 15rem;
     }
 
     .visiting__cards-item-descr {
@@ -1332,5 +1350,92 @@ input[type="number"] {
 
     .footer__bottom-text {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .container {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .header__logo-img {
+        width: 2.9rem;
+        height: 1.6rem;
+    }
+
+    .header {
+        padding: 2.6rem 0;
+        height: 9rem;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__burger {
+        display: flex;
+    }
+
+    .welcome {
+        height: auto;
+    }
+
+    .welcome__inner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .welcome__title {
+        position: relative;
+        align-items: center;
+        top: 0;
+        margin: 0 auto;
+        gap: 1.5rem;
+    }
+
+    .welcome__title h1 {
+        text-align: center;
+        line-height: 4.5rem;
+    }
+
+    .welcome__title-descr {
+        margin-bottom: 6rem;
+    }
+
+    .welcome-slider__slides {
+        height: 28.5rem;
+        width: 38rem;
+        position: relative;
+        background: url(../assets/img/welcome-slider/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .welcome__slider-pagination {
+        position: relative;
+        justify-content: center;
+        height: 8rem;
+        gap: 0;
+        width: auto;
+    }
+
+    .welcome__title-button {
+        display: none;
+    }
+
+    .welcome-slider__bullets {
+        gap: 1rem;
+    }
+
+    .welcome-slider__bullet {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .visiting__inner {
+        padding: 4rem 0 6.5rem;
     }
 }

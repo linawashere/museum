@@ -57,7 +57,7 @@
     color: #fff;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1919px) { 
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
     .heading {
         font-size: 50px;
         letter-spacing: 4.5px;
@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) { 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .heading {
         font-size: 40px;
     }
@@ -84,4 +84,19 @@
     /* .text-28 {
         font-size: 20px !important;
     } */
+}
+
+
+@media screen and (max-width: 420px) {
+    .heading {
+        font-size: 28px;
+    }
+
+    .text-28 {
+        font-size: 16px !important;
+    }
+
+    .text-22 {
+        font-size: 16px !important;
+    }
 }
